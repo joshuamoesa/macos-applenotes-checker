@@ -1,10 +1,8 @@
 
 -- This script runs the ongoing, weekly, and monthly notes checker scripts in sequence
 -- and displays the output of each in a dialog box.
-
-
-do shell script "osascript notes-checker-weekly.applescript"
-do shell script "osascript notes-checker-monthly.applescript"
+--do shell script "osascript notes-checker-weekly.applescript"
+--do shell script "osascript notes-checker-monthly.applescript"
 
 
 -- Run each script and capture its output
